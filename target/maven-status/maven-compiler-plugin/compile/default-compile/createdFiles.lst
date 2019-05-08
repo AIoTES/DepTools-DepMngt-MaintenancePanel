@@ -1,0 +1,15 @@
+eu/hopu/activage/services/dto/RecordStatus.class
+eu/hopu/activage/services/dto/RecordType.class
+eu/hopu/activage/services/dto/Record.class
+eu/hopu/activage/servlets/dto/CreateRecordDto.class
+eu/hopu/activage/persistence/RecordStorage.class
+eu/hopu/activage/services/MaintenancePanelService.class
+eu/hopu/activage/persistence/InMemoryRecordStorageImpl.class
+eu/hopu/activage/servlets/RecordServlet.class
+eu/hopu/activage/services/MaintenancePanelServiceImpl.class
+eu/hopu/activage/Initializer.class
+eu/hopu/activage/servlets/ApplicationConfig.class
+eu/hopu/activage/servlets/dto/RecordDto.class
+eu/hopu/activage/utils/GetEnvOrProperty.class
+eu/hopu/activage/utils/DateProvider.class
+eu/hopu/activage/persistence/PostgresStorage.class

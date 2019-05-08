@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+  maintenance-panel:
+    image: activage-maintenance-panel:develop
+    environment:
+      - POSTGRES_HOST=database
+      - POSTGRES_PORT=5432
+      - POSTGRES_DATABASE=activage-maintenance-panel
+      - POSTGRES_USER=activage
+      - POSTGRES_PASSWORD=activage
+    ports:
+      - 8003:8080
+
+  database:
+    image: postgres:10-alpine
+    environment:
+      - POSTGRES_USER=activage
+      - POSTGRES_PASSWORD=activage
+      - POSTGRES_DB=activage-maintenance-panel
+    ports:
+      - 5432:5432
